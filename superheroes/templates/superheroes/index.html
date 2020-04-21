@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}<title>Main page - Django superheroes</title>{% endblock %}
+{% block name_page %}<h1 class="mt-4 mb-4">Django superheroes</h1><p style="float: right;position: absolute;right: 10px;margin-top: -60px"><a href="{% url 'create_hero' %}" class="btn btn-info right_btn">Create hero</a></p>{% endblock %}
+{% block content %}
+    <div class="row">
+  {% for item in heroes %}
+  <div class="col-md-4">
+  <div class="hero">
+  {% if item.images %}
+  <div class="main_image" style='background-image: url("{{ item.images.url }}")'></div>
+      {% else %}
+      <div class="main_image no-image"></div>
+ {% endif %}
+    <h5 class="title">{{ item.nickname }}</h5>
+      <a href="{% url 'update_hero' item.id %}" class="btn btn-sm btn-info"><i class="fas fa-edit"></i></a>
+      <a href="{% url 'delete_hero' item.id %}" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></a>
+      <a href="{% url 'hero_detail' item.id %}" class="btn btn-sm btn-success"><i class="fas fa-info-circle"></i></a>
+      </div>
+       </div>
+    {% endfor %}
+
+</div>
+{% include 'superheroes/parts/pagination.html'  with page=heroes %}
+{% endblock %}
+

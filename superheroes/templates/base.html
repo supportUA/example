@@ -1,0 +1,83 @@
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% block title %}<title></title>{% endblock %}
+          {% load bootstrap4 %}
+          {% bootstrap_css %}
+      <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+          <style>
+              .main_image {
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center top;
+                  width: 250px;
+                  height: 250px;
+                max-width: 100%;
+                  margin: 10px auto;
+                  border-radius: 10px;
+                  display: block;
+              }
+              .no-image {
+                  background-color: #999;
+              }
+              .no-image:after {
+                  content: 'no image';
+                  color: #fff;
+                  position: absolute;
+                  margin-top: 90px;
+                  font-size: 42px;
+                  margin-left: 10px;
+                  opacity: .3;
+                  text-transform: uppercase;
+              }
+              .img-gallery-item {
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center top;
+                  width: 250px;
+                  height: 250px;
+                max-width: 100%;
+                  margin: 10px auto;
+                  border-radius: 10px;
+                  display: block;
+              }
+              textarea.form-control {
+                  height: 110px;
+              }
+              #myTab {
+                  margin-bottom: 20px;
+              }
+              a:focus {
+                  outline: none;
+              }
+              .hero {
+                  margin-bottom: 20px;
+                  display: block;
+              }
+              .title {
+                  font-width: 700;
+                  border-bottom: 1px solid #eee;line-height: 40px;
+              }
+                .pagination {
+                    justify-content: center;
+                    margin: 20px;
+                }
+          </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-9">
+              {% block name_page %}<h1 class="mt-2"></h1>{% endblock %}
+              <hr class="mt-0 mb-4">
+              {% block content %}
+              {% endblock %}
+            </div>
+          </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       {% bootstrap_javascript %}
+      </body>
+    </html>

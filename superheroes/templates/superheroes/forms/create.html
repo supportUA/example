@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+ {% block title %}<title>Create hero</title>{% endblock %}
+{% block name_page %}<h1 class="mt-4 mb-4">Create hero</h1> <small style="float: right;position: absolute;right: 10px;margin-top: -30px"><a href="/"><i class="fas fa-long-arrow-alt-left"></i> Back to main page</a></small>{% endblock %}
+{% block content %}
+<div class="content">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="main-information-tab" data-toggle="tab" href="#main-information" role="tab" aria-controls="main-information" aria-selected="true">Main information</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="gallery-tab" data-toggle="tab" href="#gallery" role="tab" aria-controls="gallery" aria-selected="false">Gallery</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="main-information" role="tabpanel" aria-labelledby="home-tab">
+{% load crispy_forms_tags %}
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-md-6">{{ form.nickname|as_crispy_field }}</div>
+            <div class="col-md-6">{{ form.real_name|as_crispy_field }}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">{{ form.origin_description|as_crispy_field }}</div>
+            <div class="col-md-6">{{ form.superpowers|as_crispy_field }}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">{{ form.catch_phrase|as_crispy_field }}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">{{ form.status|as_crispy_field }}</div>
+            <div class="col-md-12">{{ form.images|as_crispy_field }}</div>
+        </div>
+      </div>
+    <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
+    <div class="row">
+        <div class="col-md-6">{{ form.img1|as_crispy_field }}</div>
+        <div class="col-md-6">{{ form.img2|as_crispy_field }}</div>
+    </div>
+        <div class="row">
+        <div class="col-md-6">{{ form.img3|as_crispy_field }}</div>
+        <div class="col-md-6">{{ form.img4|as_crispy_field }}</div>
+    </div>
+        <div class="row">
+        <div class="col-md-6">{{ form.img5|as_crispy_field }}</div>
+        <div class="col-md-6">{{ form.img6|as_crispy_field }}</div>
+    </div>
+        <div class="row">
+        <div class="col-md-6">{{ form.img7|as_crispy_field }}</div>
+        <div class="col-md-6">{{ form.img8|as_crispy_field }}</div>
+    </div>
+        <div class="row">
+        <div class="col-md-6">{{ form.img9|as_crispy_field }}</div>
+        <div class="col-md-6">{{ form.img10|as_crispy_field }}</div>
+    </div>
+    </div>
+    </div>
+    <button type="submit" class="btn btn-success">Create hero</button>
+    </form>
+</div>
+{% endblock %}

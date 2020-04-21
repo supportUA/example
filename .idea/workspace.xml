@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d7f0bc9-e9ac-4cd2-8900-0611a4f100b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/attachments/PHP_Engineer_Test1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/attachments/PHP_Engineer_Test1_qwprawB.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/attachments/superman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/Screenshot_2020-04-14_Проверка_домена_в_спам-базах__Анализ_сайта_-_SiteDozor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/feetrus9836.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/feetrus9836_ZZypDH2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/feetrus9836_dc276YO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/lara_croft2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/lara_croft2_0OYZ52J.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/lara_croft2_7KIZbNz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/lara_croft2_CJi8ni2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/lara_croft2_CZxjzWy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/lara_croft2_PVbqabI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/lara_croft2_RnLlexI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/spiderman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/spiderman_NVzOhgY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/spiderman_mv2SbGx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_0x69e5F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_1xUX5tf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_2fWmEU2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_2iy8MXv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_3N2kP9x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_4hL95VH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_BUE1szN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_HmIprFe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_KLGw0Hz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_KTB99Yn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_LylqTcZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_c8lHmtA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_eSi3BDk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_girfjL1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_jcCmNBZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_lJv3lh4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_sKOcOAc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/supergirl_y3CAHC7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_94scr85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_AhQhY7G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_QEd2blY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_Sq1O50P.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_ZW2nCHX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_aHfVI7F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_c8xg2cI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_d2eLvtm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_dJjgtAH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/superman_pQwLE29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/post_images/sdfgsdg-Screenshot_2020-04-15_Проверка_домена_в_спам-базах__Анализ_сайта_-_SiteDozor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/post_images/sdfgsdg-lara_croft2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/post_images/sdfgsdg-superman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/uploads/superman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/superheroes/forms/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/superheroes/forms/delete_hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/superheroes/forms/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/superheroes/forms/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/superheroes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/superheroes/parts/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/templates/superheroes/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superheroes/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aZT1JCoENjmWcabvUrjYLINFkD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\example\superheroes\templates\superheroes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="example" type="Python.DjangoServer" factoryName="Django server">
+      <module name="example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d7f0bc9-e9ac-4cd2-8900-0611a4f100b9" name="Default Changelist" comment="" />
+      <created>1586941899820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586941899820</updated>
+      <workItem from="1586941901068" duration="15851000" />
+      <workItem from="1586954987853" duration="3878000" />
+      <workItem from="1587001367256" duration="4223000" />
+      <workItem from="1587131900972" duration="9221000" />
+      <workItem from="1587459800235" duration="871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1359" y="373" key="FileChooserDialogImpl" timestamp="1586943813044">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1359" y="373" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586943813044" />
+  </component>
+</project>
